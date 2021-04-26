@@ -1,0 +1,200 @@
+@import "./reset.scss";
+
+@font-face {
+  font-family: "tfht";
+  src: url("~@/assets/font/tfht.ttf") format("truetype");
+}
+
+body {
+  font-family: tfht;
+}
+
+.pct-w100 {
+  width: 100%;
+}
+.pct-h100 {
+  height: 100%;
+}
+
+.fw {
+  font-weight: bold;
+}
+
+.ova {
+  overflow: auto;
+}
+.ovh {
+  overflow: hidden;
+}
+.rel {
+  position: relative;
+}
+.cur {
+  cursor: pointer;
+}
+.bk {
+  display: block;
+}
+.ibk {
+  display: inline-block;
+}
+.line-hide {
+  text-decoration: none;
+}
+
+//字体
+.f12 {
+  font-size: 12px;
+}
+.f14 {
+  font-size: 14px;
+}
+.f13 {
+  font-size: 13px;
+}
+.f16 {
+  font-size: 1.48vh;
+}
+.f22 {
+  font-size: 22px;
+}
+.f28 {
+  font-size: 28px;
+}
+.f30 {
+  font-size: 30px;
+}
+.f34 {
+  font-size: 34px;
+}
+
+//颜色
+.c-light-blue {
+  color: #789ce0;
+}
+
+//布局
+.fx {
+  display: flex;
+}
+.fx-h-c {
+  justify-content: center;
+}
+.fx-h-sp {
+  justify-content: space-between;
+}
+.fx-v-c {
+  align-items: center;
+}
+.fx-v {
+  flex-direction: column;
+}
+.fx-1 {
+  flex: 1;
+}
+.fx-h-end {
+  justify-content: flex-end;
+}
+
+//间距
+.mt10 {
+  margin-top: 10px;
+}
+.mt6 {
+  margin-top: 6px;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.mt2 {
+  margin-top: 2px;
+}
+.ml30{
+  margin-left: 30px;
+}
+
+::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 8px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  /*滚动条中的滚动块*/
+  border-radius: 8px;
+  background: #c2c0c0;
+}
+
+::-webkit-scrollbar-track {
+  /*滚动条里面的轨道*/
+  border-radius: 8px;
+  background: #ededed;
+}
+
+.scrollHide ::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  display: none;
+  width: 0 !important;
+  height: 0;
+}
+.scrollMineHide::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  display: none;
+  width: 0 !important;
+  height: 0;
+}
+
+// 背景
+
+.bg-menu-item {
+  background-image: url("~@/assets/images/menu-item.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.bg-title {
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  font-size: 20px;
+  color: $fff;
+  margin-bottom: 20px;
+  height: 26px;
+  line-height: 26px;
+  padding-left: 62px;
+}
+.bg-title-left {
+  background-image: url("~@/assets/images/title-left.png");
+}
+.bg-title-center {
+  background-image: url("~@/assets/images/center.png");
+}
+.bg-module-desc {
+  background: url("~@/assets/images/left-module.png") no-repeat left top;
+  background-size: 100% 100%;
+}
+.bg-module-common{
+  padding: 20px 30px;
+  background: url("~@/assets/images/left-module.png") no-repeat left top;
+  background-size: 100% 100%;
+}
+
+.bg-module-center {
+  background: url("~@/assets/images/center-module.png") no-repeat left top;
+  background-size: 100% 100%;
+  padding: 20px 30px;
+}
+
+.tg-bg-center {
+  background: url("~@/assets/images/tg-bg.png") no-repeat left top;
+  background-size: 100% 100%;
+}
+.bg-cont-wrap {
+  background: url("~@/assets/images/cont-wrap.png") no-repeat left top;
+  background-size: 100% 100%;
+}
+
+
+// 字体
+.fma{
+  font-family: Arial;
+}
